@@ -4,10 +4,12 @@ import {
   } from 'react-redux-firebase'
 
 import { createFirestoreInstance, firestoreReducer } from 'redux-firestore' // <- needed if using firestore
+import noteReducer from './noteReducer';
 
 // Add firebase to reducers
 
 const rootReducer = combineReducers({
+    note: noteReducer,
     firebase: firebaseReducer,
     firestore: firestoreReducer // <- needed if using firestore
   })
