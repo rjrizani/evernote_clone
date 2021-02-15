@@ -70,3 +70,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 npm install redux-thunk redux-firebase react-redux-firebase
 
 npm i firebase --save
+
+### demo in sandbox
+https://codesandbox.io/s/pedantic-ishizaka-te11h
